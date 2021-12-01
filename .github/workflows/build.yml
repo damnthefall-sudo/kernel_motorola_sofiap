@@ -25,7 +25,7 @@ jobs:
         NAME: ktest
       with:
         arch: arm64
-        compiler: aosp-clang/master/clang-r416183b
+        compiler: proton-clang/master
         defconfig: olddefconfig
         image: Image.gz-dtb
 
